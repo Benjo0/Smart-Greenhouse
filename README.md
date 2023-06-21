@@ -10,12 +10,8 @@
 
 
 <h3 align="center">Smart greenhouse</h3>
-![overviewOfProject](https://github.com/Benjo0/Smart-Greenhouse/assets/45501925/79c655bf-c345-4a24-83f3-69c5eed5b8e1)
 
 </div>
-
-
-
 
 <details>
   <summary>Table of Contents</summary>
@@ -34,10 +30,10 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
-Photo of project
+![overviewOfProject](https://github.com/Benjo0/Smart-Greenhouse/assets/45501925/79c655bf-c345-4a24-83f3-69c5eed5b8e1)
 
 This project task provides a comprehensive description of the design of an automated greenhouse for plants. The system operates in a fully automated manner, ensuring optimal conditions for the growth of specific plant species. It meticulously monitors the greenhouse temperature, soil moisture levels, and greenhouse lighting, making necessary adjustments to achieve optimal parameters. 
 
