@@ -53,7 +53,6 @@ After that you should upload code on your arduino and that's it.
 
 
 
-
 For this project, the Arduino Nano microcontroller has been chosen as the control unit. The selected control elements include an electric submersible pump for plant watering and a servo motor for opening the greenhouse window. UV LEDs have been chosen as the light source. The plant, along with the soil, is contained within a closed system, the greenhouse. Above the plant, UV LEDs are positioned, which only turn on when the photosensor does not detect sufficient light, indicating that the plant lacks adequate light. The greenhouse also features a window that is controlled by the servo motor. This servo motor is activated to open the window when the temperature rises above the optimal range and closes it in case of low temperatures. This helps to regulate the greenhouse temperature, which is measured by a temperature probe, ensuring optimal conditions. Additionally, a soil moisture sensor is placed, which sends a specific parameter to the Arduino. In the code, this parameter represents the threshold between dry, excessively wet, and optimally moist soil. Based on this parameter, the motor pump in the water reservoir is activated for a specific duration, providing water to the plant's roots. The water reservoir is filled and sufficient for a designated watering period. A float sensor is placed on the reservoir to measure the water level. If the water level drops below a certain point, indicating insufficient water, a GSM module sends a message to the user indicating the water shortage, and the water pump is turned off. The GSM module requires a constant 4V, so a step-down converter is used at the input to convert the 9V input voltage to 5V. Additionally, a relay is required, which utilizes the low current of the float sensor to activate its electromagnet, enabling a power circuit connection with the motor. The system states are displayed on an LCD screen.
 
 List of components that are used: 
@@ -74,6 +73,16 @@ List of components that are used:
     </ul>
 
 ![shema](https://github.com/Benjo0/Smart-Greenhouse/assets/45501925/1b3a7596-a190-48da-9d92-1eb06b3b3527)
+
+The system operates as follows:
+
+Firstly, it checks the soil humidity and takes appropriate actions based on the readings. If the soil lacks sufficient water (low humidity), the system verifies the water level in the tank. If there is an inadequate amount of water, it sends an SMS notification to the owner and proceeds with further checks. However, if there is enough water, the system activates the water pump to irrigate the soil.
+
+After watering, the system proceeds to monitor the temperature and responds accordingly to the readings obtained from the temperature sensor. If the temperature falls below a specified threshold, the system automatically opens the "window" (if it is closed). Conversely, if the window is already open or the temperature is low, the system will keep the window closed.
+
+Additionally, the system checks the light intensity. If there is insufficient light, the system activates the LED diode to provide supplementary lighting.
+
+This process is repeated continuously, with the system consistently monitoring the humidity, temperature, and light levels using the sensors. Based on the data collected, it takes necessary actions to ensure optimal conditions for the plants.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
