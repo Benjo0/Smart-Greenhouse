@@ -87,6 +87,7 @@ List of components that are used:
 
 
 ## Contact
+<a href=”https://www.linkedin.com/in/benjamin-gali%C4%87-040619246//">![linkedin](https://github.com/Benjo0/Smart-Greenhouse/assets/45501925/2e7ffb94-8496-4515-96d0-167c1f5ec64a)</a>
 
 Benjamin Galić -  benjogalic64@gmail.com
 
