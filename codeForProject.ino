@@ -155,7 +155,7 @@ void SendMessageTankFull()
 {
   Serial.println("AT+CMGF=1"); 
   updateSerial();
-  Serial.println("AT+CMGS=\"+38762987268\"");
+  Serial.println("AT+CMGS=\"Your Number\"");
   updateSerial();
   Serial.print("Watering soil in process !!"); 
   updateSerial();
@@ -167,7 +167,7 @@ void SendMessageTankNotFull()
 {
   Serial.println("AT+CMGF=1");
   updateSerial();
- Serial.println("AT+CMGS=\"+38762987268\"");
+ Serial.println("AT+CMGS=\"Your Number\"");
   updateSerial();
   Serial.print("Tank is empty, water is needed !!"); 
   updateSerial();
