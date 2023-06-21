@@ -77,7 +77,7 @@ List of components that are used:
     <li> Switch </li>
     </ul>
 
-    Scheme pohoto
+![shema](https://github.com/Benjo0/Smart-Greenhouse/assets/45501925/754e78d5-05b6-47bd-9348-c87fd6e580fc)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
