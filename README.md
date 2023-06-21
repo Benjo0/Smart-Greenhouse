@@ -5,9 +5,7 @@
 
 <br />
 <div align="center">
-  <a href="[https://github.com/github_username/repo_name](https://github.com/Benjo0/Smart-Greenhouse)">
-    ![overviewOfProject](https://github.com/Benjo0/Smart-Greenhouse/assets/45501925/53d06ee3-9642-4f6b-976a-389306d21e43)
-  </a>
+ ![overviewOfProject](https://github.com/Benjo0/Smart-Greenhouse/assets/45501925/53d06ee3-9642-4f6b-976a-389306d21e43)
 
 <h3 align="center">Smart greenhouse</h3>
 
