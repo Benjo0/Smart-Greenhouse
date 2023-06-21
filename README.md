@@ -5,7 +5,8 @@
 
 <br />
 <div align="center">
-![overviewOfProject](https://github.com/Benjo0/Smart-Greenhouse/assets/45501925/f02a6d2c-734b-4a52-af49-4349632c8c80)
+![image](https://github.com/Benjo0/Smart-Greenhouse/assets/45501925/ca1ee092-3a8e-4785-ab56-fd38b5989df0)
+
 
 
 <h3 align="center">Smart greenhouse</h3>
