@@ -75,7 +75,7 @@ List of components that are used:
     <li> Switch </li>
     </ul>
 
-![shema](https://github.com/Benjo0/Smart-Greenhouse/assets/45501925/754e78d5-05b6-47bd-9348-c87fd6e580fc)
+![shema](https://github.com/Benjo0/Smart-Greenhouse/assets/45501925/1b3a7596-a190-48da-9d92-1eb06b3b3527)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
