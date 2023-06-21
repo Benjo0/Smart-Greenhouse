@@ -5,11 +5,12 @@
 
 <br />
 <div align="center">
-![image](https://github.com/Benjo0/Smart-Greenhouse/assets/45501925/ca1ee092-3a8e-4785-ab56-fd38b5989df0)
+
 
 
 
 <h3 align="center">Smart greenhouse</h3>
+![overviewOfProject](https://github.com/Benjo0/Smart-Greenhouse/assets/45501925/79c655bf-c345-4a24-83f3-69c5eed5b8e1)
 
 </div>
 
